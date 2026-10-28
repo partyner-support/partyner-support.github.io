@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partyner – パーティのおとも / Your party sidekick</title>
+<meta name="description" content="Partyner：指で決める・あみだくじ。ぜんぶ無料のランダム決定アプリ。 / Finger chooser and Ghost Leg, all free.">
+<style>
+  :root { --bg: #ffffff; --fg: #17171c; --muted: #5d5d6b; --line: #e4e4ea; --card: #f6f6f9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f0f17; --fg: #f2f2f6; --muted: #a2a2b2; --line: #2a2a36; --card: #191923; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 64px; }
+  .dots { display: flex; gap: 10px; margin-bottom: 20px; }
+  .dots span { width: 22px; height: 22px; border-radius: 50%; }
+  h1 { font-size: 48px; line-height: 1.1; margin: 0 0 8px; font-weight: 900; letter-spacing: -0.02em; }
+  .lead { font-size: 18px; color: var(--muted); margin: 0 0 32px; }
+  .features { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-bottom: 40px; }
+  .features div { background: var(--card); border-radius: 18px; padding: 18px 20px; }
+  .features b { display: block; margin-bottom: 4px; }
+  .features p { margin: 0; color: var(--muted); font-size: 15px; }
+  .links a { display: inline-block; margin: 0 16px 12px 0; color: var(--fg); font-weight: 700; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="dots" aria-hidden="true">
+    <span style="background:#ff5c6b"></span><span style="background:#45b8ff"></span>
+    <span style="background:#ffcc33"></span><span style="background:#5ce68c"></span><span style="background:#b878ff"></span>
+  </div>
+  <h1>Partyner</h1>
+  <p class="lead">パーティのおとも。ぜんぶ無料で、ランダムに決めよう。<br>Your party sidekick. Decide anything at random, all free.</p>
+
+  <div class="features">
+    <div><b>指で決める / Finger Chooser</b><p>当たり・順番・チーム分け・サバイバル。6人以上は「タップで参加」で最大12人。<br>Pick, order, teams, survival. Up to 12 players with Tap to join.</p></div>
+    <div><b>あみだくじ / Ghost Leg</b><p>名前と結果を入れて、線をたどって決める。<br>Enter names and outcomes, then follow the lines.</p></div>
+  </div>
+
+  <nav class="links">
+    <a href="./support.html">サポート / Support</a>
+    <a href="./privacy.html">プライバシーポリシー / Privacy Policy</a>
+  </nav>
+
+  <footer>© 2026 Partyner · <a href="mailto:partyner.support@gmail.com" style="color:inherit">partyner.support@gmail.com</a></footer>
+</main>
+</body>
+</html>
